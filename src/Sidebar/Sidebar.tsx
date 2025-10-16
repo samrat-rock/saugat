@@ -100,13 +100,13 @@ const Sidebar = () => {
         }
     ];
     return (
-        <div className='p-4 border-2'>
-            <div className='border-x-4 border-x-transparent text-sm font-sans tracking-wide'>
+        <div className='p-2 mt-2'>
+            <div className='p-2 border-r-2 text-sm font-sans tracking-wide'>
                 <h2 className='font-bold mb-2'>Category</h2>
                 {categories.map((cat, idx) => (
                     <div key={idx} className="mb-6">
                         <h3 className="font-bold mb-2 ml-2">{cat.category}</h3>
-                        <ul className='w-44 text-wrap'>
+                        <ul className='w-48 text-wrap'>
                             {cat.options.map((option, i) => (
                                 <li key={i} className={`mb-1 ml-2 ${cat.pushleft ? "ml-4" : ""}`} >
                                     <label className="flex items-center space-x-2 cursor-pointer hover:text-orange-700">
