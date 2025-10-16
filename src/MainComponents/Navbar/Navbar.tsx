@@ -18,6 +18,10 @@ const Navbar = () => {
     </div>
     
         <SearchBar/>
+
+        <div className='flex items-center'>
+          <p className='text-white text-xl'>EN</p>
+        </div>
   
 </nav>
 </>

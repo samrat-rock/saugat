@@ -40,7 +40,7 @@ const SearchBar = () => {
           ))}
         </select>
 
-        {/* Search Input */}
+      
         <input
           type="text"
           placeholder="Search Amazon"
@@ -49,7 +49,7 @@ const SearchBar = () => {
           className="flex-1 px-3 text-sm outline-none"
         />
 
-        {/* Search Button */}
+      
         <button
           type="submit"
           className="bg-[#febd69] hover:bg-[#f3a847] w-[45px] flex items-center justify-center transition-colors"
