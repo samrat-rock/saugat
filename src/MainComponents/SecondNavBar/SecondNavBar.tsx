@@ -38,7 +38,7 @@ const SecondNavBar = () => {
           <span className="font-semibold">All</span>
         </button>
 
-        {/* Category Links */}
+
         <div className="flex items-center gap-6  overflow-x-auto ">
           {categories.map((item, idx) => (
             <span
@@ -51,7 +51,7 @@ const SecondNavBar = () => {
         </div>
       </div>
 
-      {/* Overlay (transparent instead of black) */}
+      
       {open && (
         <div
           className="fixed inset-0 bg-transparent z-40"
