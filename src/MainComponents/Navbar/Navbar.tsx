@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className='pt-3 pl-4 '>
           <Image src="/logo.jpg" alt='' height={100} width={100} />
         </div>
-        <div className='text-white pb-2 pt-4'>
+        <div className='text-white pb-2 pt-4 '>
           <span className='text-gray-100 pl-7 text-sm text'> Delivering to mumbai 40001
             <span className='flex  md:text-xl font-bold items-center'><IoLocationOutline className='md:text-xl ml-2 ' />Update Location</span>
           </span>
@@ -29,7 +29,8 @@ const Navbar = () => {
           <LoginPanel />
 
           <div className="text-white px-8  leading-tight cursor-pointer">
-            <p className="text-xs">Returns</p>
+       
+       t     <p className="text-xs">Returns</p>
             <p className="font-bold text-sm">& Orders</p>
           </div>
 

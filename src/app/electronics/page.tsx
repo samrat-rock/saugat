@@ -1,7 +1,8 @@
 import React from "react";
-import Sidebar from "@/ElectronicsComponents/Sidebar/Sidebar";
+
 import SecondNavBar from "@/MainComponents/SecondNavBar/SecondNavBar";
 import Electronic from "@/ElectronicsComponents/ElectronicNavBar/ElectronicNavBar";
+import { Sidebar } from "lucide-react";
 
 const Page = () => {
   return (

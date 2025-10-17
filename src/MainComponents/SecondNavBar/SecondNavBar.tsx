@@ -26,10 +26,10 @@ const SecondNavBar = () => {
     ];
 
     return (
-        <div className="relative w-full bg-slate-900">
-            {/* Transparent Top Bar */}
-            <div className="flex items-center gap-4 text-white px-4 py-2 text-sm backdrop-blur-md bg-transparent">
-                {/* Hamburger + All Button */}
+        <div className="relative w-full bg-slate-900 ">
+            
+            <div className="flex items-center  text-white px-2 py-2  text-sm backdrop-blur-md bg-transparent">
+                
                 <button
                     onClick={() => setOpen(true)}
                     className="flex items-center gap-2 bg-transparent border-none outline-none cursor-pointer"
@@ -38,7 +38,7 @@ const SecondNavBar = () => {
                     <span className="font-semibold">All</span>
                 </button>
 
-                <div className="flex-1  whitespace-nowrap">
+                <div className="flex-1  whitespace-nowrap ">
                     {categories.map((item, idx) => (
                         <span
                             key={idx}

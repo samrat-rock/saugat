@@ -6,7 +6,7 @@ const LoginPanel = () => {
 
   return (
     <div
-      className="relative"
+      className="relative "
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => setIsOpen(false)}
     >

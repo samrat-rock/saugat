@@ -21,7 +21,7 @@ const SearchBar = () => {
   };
 
   return (
-    <div className="lg:w-3xl md:w-xl w-32 flex justify-center pb-4 pt-5 ">
+    <div className="lg:w-3xl md:w-xl w-32  justify-center pb-4 pt-5 ">
       
       <form
         onSubmit={handleSearch}
