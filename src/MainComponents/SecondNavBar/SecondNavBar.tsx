@@ -39,7 +39,7 @@ const SecondNavBar = () => {
         </button>
 
         {/* Category Links */}
-        <div className="flex items-center gap-6  overflow-x-auto scrollbar-hide">
+        <div className="flex items-center gap-6  overflow-x-auto ">
           {categories.map((item, idx) => (
             <span
               key={idx}
