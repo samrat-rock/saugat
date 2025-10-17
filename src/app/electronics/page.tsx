@@ -1,8 +1,9 @@
-import React from 'react'
+"use client";
+import React, { useState } from 'react'
 import Sidebar from '@/Sidebar/Sidebar'
-import Link from 'next/link';
 
 const page = () => {
+   const [isOpen, setIsOpen] = useState(false);   
 
    const mobile = [
       { category: "Mobile", link: "/page" },
@@ -58,7 +59,9 @@ const page = () => {
                Electronics
             </div>
 
-            <div className='p-4 border-x-4 border-x-transparent text-gray-700 text-xs font-medium tracking-wide hover:cursor-pointer hover:underline decoration-2 underline-offset-2 decoration-orange-400 active:border-x-gray-800'>
+            <div className='p-4 border-x-4 border-x-transparent text-gray-700 text-xs font-medium tracking-wide hover:cursor-pointer hover:underline decoration-2 underline-offset-2 decoration-orange-400 active:border-x-gray-800'
+               
+               >
                Mobile and Accessories
             </div>
 
@@ -94,6 +97,7 @@ const page = () => {
                Office & Stationery
             </div>
          </div>
+         
 
          <div className='flex'>
             <Sidebar />
